@@ -1,104 +1,172 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CURRICULUM VITAE</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
- 
-    <div class="outer">
-	<button onclick="window.print()">Print</button>
-	<br>
-        <h1>CURRICULUM VITAE</h1><br>
-        <img src="C:\Users\student\Desktop\Shivam Resume\Image\Shivam Image.jpg" alt="Shivam" width="70" hight="130"/></img>
-        <p>
-            <b>SHIVAM KUMAR</b><br>
-                VIiiage - Mohmudpur Buzurg Post - Slkandra<br>
-                Distt. - Kanpur Dehat-209715 <br>
-                Mob.: 09565887085 <br>
-                E-Mail ID: shkuch92@gmail.com<br>
-                <a href="https://www.linkedin.com/in/shivam-chaturvedi-208a4b192"target="_blank">
-                    <img src="C:\Users\student\Desktop\Shivam Resume\Image\linkedin.jpg" alt="linkedin" width="20" hight="20">
-                    </a>
-                    <a href="https://twitter.com/Shivam1472?t=fcLIW7HOxVLd429f8BYpqQ&s=09"target="_blank">
-                    <img src="C:\Users\student\Desktop\Shivam Resume\Image\twitter.jpg" alt="twitter" width="20" hight="20">
-                    </a>
+<html>
+    <title>Shivam Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-image: -webkit-radial-gradient();
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .fix{
+                clear: both;
+            }
+            .main{
+                height: 1200px;
+                width: 800px;
+                background-color: white;
+                box-shadow: 5px 7px 15px 5px #b9b6b6;
+                margin: 20px auto;
+            }
+            .profile{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+            }
+            .top-sec{
+                background-color: #151b29;
+                text-align: center;
+                padding: 20px;
+            }
+            .p1{
+               color: white;
+               font-size: 40px;
+               font-weight: bold;
+               margin: 0px;
+               margin-top: 10px;
+            }
+            .p2{
+                font-size: 20px;
+                color: #c7c7c7;
+                margin: 0px;
+                margin-top: 10px;
+            }
+            .content-box{
+                padding-left: 40px;
+            }
+            .col-4{
+                width: 40%;
+                float: left;
+            }
+            .col-5{
+                width: 55%;
+                float: left;
+            }
+            .line{
+                border-left: 1px solid #c7c7c7;
+                height: 850px;
+                width: 2%;
+                margin-top: 30px;
+                float: left;
+            }
+            .content-box{
+                padding: 20px;
+            }
+            .heading{
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+            .p3{
+                color: #969595;
+                margin-bottom: -5px;
+            }
+            .p5 span{
+                color: #969595;
+                margin-bottom: -5px;
+            }
 
-               
-                
-                
-            </p>
-        <br>
-        <br>
-        <div class="border">
-            <i>CAREER OBJECTIVE:-</i>
-        </div>
-        <br>
-        <p>
-            	To work with a organization in any industry lo achieve organizational and personal goals and work satisfaction through hard work, honesty and sincerity. 
-        </p>
-        <br>
-        <div class="border">
-            <i>EDUCATIONAL QUALIFICATION:-</i>
-        </div>
-        <br>
-        <ul>
-            <li>High School passed with 83.2% from U.P. Board in 2014. </li>
-            <li>Intermediate passed with 86.4%from U.P. Board in 2016. </li>
-            <li>B.Sc. passed with 61.2% from C.S.J.M.U. Kanpur in 2021. </li>
-        </ul>
-        <br>
-        <div class="border">
-            <i>   COMPUTER SKILLS  :-</i>
-        </div>
-        <br>
-        <ul>
-            <li>Completed CCC 'C Grade'. </li>
-            <li>Completed ADCA. </li>
-         </ul>
-         <br>
-         <div class="border">
-            <i>   EXPERIENCE   :-</i>
-        </div>
-        <br>
-        <ul>
-            <li>Fresher.</li>
-        </ul>
-        <br>
-        <div class="border">
-            <i>  PERSONAL DETAILS  :-</i>
-        </div>
-        <br>
-        <ul>
-            <li>Father's Name       : Arvind Kumar</li>
-            <li>Date of Birth       : 03/05/1999</li>
-            <li>Nationality         : Indian</li>
-            <li>Gender              : Male</li>
-            <li>Marital Status      : Single</li>
-            <li>Language Known      : Hindi, English</li>
-        </ul>
-        <br>
-        <div class="border">
-            <i>  DECLARATION  :-</i>
-        </div>
-        <br>
-        <p>
-            The above mentioned information is true to be best of my knowledge and believes given me an opportunity. I will work up to serve your esteemed organization. 
-        </p>
-        <br>
-        <p>
-            Date:-<br>
-            Place:-<br>
-        </p>
-        <br>
-        <h2>
-           (SHIVAM KUMAR)
-        </h2>
+            .fa{
+                color: #151b29;
+            }
+            .skills{
+                margin-left: -20px;
+                margin-bottom: 0px;
+            }
+            .skills li{
+                padding: 5px;
+            }
+            .skills li span{
+                color: #969595;
+            }
+            .p4{
+                font-size: 14px;
+                color: #c7c7c7;
+            }
+		
+	    
+        </style>
+    </head>
+    <body>
+        <div class="main">
+           <div class="top-sec">
+               <img src="file:///C:/Users/Administrator/Desktop/Resume/Image/1675529881937%20-%20Copy1.jpg" class="profile">
+               <p class="p1">SHIVAM KUMAR</p>
+               <p class="p2">Software Developer</p>
+           </div>
+           <div class="fix">
+              <div class="col-4">
+                  <div class="content-box">
+                         <p class="heading">Contact</p>
+                         <p class="p3"><i class="fa fa-phone"></i> +91 9565887885</p>
+                         <p class="p3"><i class="fa fa-envelope"></i> shkuch92@gmail.com</p>
+                         <p class="p3"><i class="fa fa-envelope"></i> shivam.2224mca1162@kiet.edu</p>
+                         <p class="p3"><i class="fa fa-home"></i> INDIA</p>
+                         <br/>
+                         <p class="heading">My Accounts link</p>
+                         <ul class="skills">
+                            <li><a href="https://www.linkedin.com/in/shivam-chaturvedi-208a4b192"target="blank">linkedin</a><span></span></li>                           
+                            <li><a href="https://twitter.com/Shivam1472?t=fcLIW7HOxVLd429f8BYpqQ&s=09" target="_blank">Twitter</a><span></span></li>
+			    <li><a href="https://github.com/shivamkietmca"target="blank">Github</a><span></span></li>
+			    <li><a href="https://www.hackerrank.com/92shivam92"target="blank">HackerRank</a><span></span></li>
+                         </ul>
 
-
-    </div>
-</body>
+                         <br/>
+                         <p class="heading">My Skills</p>
+                         <ul class="skills">
+                            <li><span>Web Design</span></li>
+                            <li><span>HTML and CSS</span></li>
+                            
+                         </ul>
+                         
+                         
+                         <p class="heading">Languages</p>
+                         <p class="p3">ENGLISH</p>
+                         <p class="p3">HINDI</p>
+                  </div>
+              </div>
+              <div class="line"></div>
+              <div class="col-5">
+                <div class="content-box">
+                       <p class="heading">OBJECTIVE</p>
+                       <p class="p3">To work in an organisation where I can learn and nuture my skills for the betterment of the organisation as well as myself.</p>
+                       <br/>
+                       <p class="heading">EDUCATIONAL QUALIFICATION</p>
+                       <p class="p3">Pursuing MCA from Kiet group of institution,AKTU University, 2022-2024</p>
+                       <p class="p3">B.SC (Maths) from CSJMU Kanpur, 2021 </p>
+                       <p class="p3">Intermediate from UP BOARD , 2016/p>
+                       <p class="p3">High school from UP BOARD , 2014</p>
+                       <br/>
+                       
+                       <p class="heading">Personal Information</p>
+                       <p class="p5">Name:<span> Shivam Kumar </span></p>
+                       <p class="p5">Father's Name:<span> MR. Arvind Kumar</span></p>
+                       <p class="p5">Date of birth:<span> 03/05/1999</span></p>
+                       <p class="p5">Contact No:<span> 9565887885</span></p>
+                       <p class="p5">Languages:<span> English and Hindi</span></p>
+                       <p class="p5">Gender:<span> Male</span></p>
+                       <p class="p5">Marital Status:<span> Single</span></p>
+                       <p class="p5">Nationality:<span> Indian</span></p>
+                       <p class="p5">Hobbies:<span> Surfing net, Playing Cricket, Playing Chess.</span></p>
+                       <br>
+                       <button class="btn btn-primary d-flex float-right" onclick="window.print();">Print</button>
+                </div>
+            </div>
+           </div>
+        </div>
+    </body>
 </html>
